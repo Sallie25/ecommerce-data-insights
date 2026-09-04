@@ -290,7 +290,7 @@ def main() -> None:
 
     # Export Data
     logger.info(f"Writing outputs to directory: {RAW_DIR}")
-    write_outputs(products_df, customers_df, sales_df, returns_df, PROCESSED_DIR)
+    write_outputs(products_df, customers_df, sales_df, returns_df, RAW_DIR)
     logger.success("All outputs successfully written to disk! Pipeline complete.")
 
 
